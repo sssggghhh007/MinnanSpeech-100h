@@ -1,0 +1,17 @@
+# Keep audio, raw media, private provenance, and local credentials out of Git.
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.flac
+*.wav
+*.mp3
+*.mp4
+*.mkv
+audio/
+private/
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
